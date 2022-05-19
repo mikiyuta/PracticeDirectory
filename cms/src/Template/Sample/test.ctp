@@ -16,16 +16,24 @@ echo $this->Html->script('test');
 </head>
 <body>
     <h1>test用</h1>
-    <form action="/sample/testresult" method="POST">
-        <input type="hidden text" name="_method">
+    <?= $this->Form->create(null, array('url' => array('controller' => 'sample', 'action' => 'testresult'))); ?>
+    <label>名前：
+        <input type="hidden text" name="name">
+    </label>
+    <label>年齢：
+        <input type="hidden text" name="age">
+    </label>
+    <label>出身：
+        <input type="hidden text" name="from">
+    </label>
+    <input type="submit" value="Post" onclick="button()"/>
+    <?= $this->Form->end(); ?>
+
+        <!-- <form action="testresult" method="POST">
+        <label>名前：
+            <input type="hidden text" name="_method">
+        </label>
         <input type="submit" onclick="button()">
-        <div id="parallel">
-            <p>11111</p>
-            <p>22222</p>
-            <p>33333</p>
-            <p>44444</p>
-            <p>55555</p>
-        </div>
-    </form>
+        </form> -->
 </body>
 </html>
