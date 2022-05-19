@@ -1,0 +1,59 @@
+version: "3"
+ 
+services:
+  app:
+    hostname: 'hoge.cms.com'
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    volumes:
+      - .:/var/www/html
+      - ./docker/apache/SSL/ssl.conf:/etc/httpd/conf.d/ssl.conf
+      - ./docker/php.ini:/usr/local/etc/php/php.ini
+    ports:
+      - 80:80
+    environment:
+      TZ: "Asia/Tokyo"
+    depends_on:
+      - db
+    networks:
+      web_segment:
+        ipv4_address: 172.100.0.2
+ 
+  db:
+    image: mysql:5.7
+    volumes:
+      - ./data/mysql/sql:/docker-entrypoint-initdb.d
+      - ./data/mysql/db:/var/lib/mysql
+      - ./data/mysql/my.cnf:/etc/mysql/conf.d/my.cnf
+    ports:
+      - "3308:3306" 
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_USER: my_app
+      MYSQL_PASSWORD: secret
+      MYSQL_DATABASE: cake_cms
+      TZ: "Asia/Tokyo"
+    networks:
+      web_segment:
+        ipv4_address: 172.100.0.3
+    
+  mailhog:
+    image: mailhog/mailhog
+    ports:
+      - "8025:8025"
+      - "1025:1025"
+    networks:
+      web_segment:
+        ipv4_address: 172.100.0.4
+
+networks:
+  web_segment:
+    driver: bridge
+    ipam:
+      config:
+      - subnet: 172.100.0.0/24
+
+volumes:
+  db-data:
+    external: false

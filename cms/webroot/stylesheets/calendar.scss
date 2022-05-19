@@ -1,0 +1,84 @@
+.calendar_container{
+	background-image: image-url("calendar/cal_image_03.jpg");
+	color: #7d5633;
+	width: 320px;
+	.calendar_week_head{
+		margin-top: 10px;
+	}
+	.calendar_month_head{
+		margin-top: 20px;
+	}
+	.calendar_title{
+		font-size: 11px;
+		border-bottom: solid 2px #ffdab9;
+		margin: 0 3px;
+		.explanation{
+			margin:5px 0;
+		}
+		.week_icon{
+			zoom: 50%;
+		}
+	}
+	.manth_text{
+		font-family: sans-serif;
+    font-weight: bold;
+		font-size: 18px;
+		text-align: left;
+		margin-left: 20px;
+	}
+	table {
+		margin-left: auto;
+		margin-right: auto;
+		width: 310px;
+		.wday{
+			float: left;
+			width: 45px;
+			border-collapse: collapse;
+			border-bottom: solid 2px #ffdab9;
+			margin-bottom: -2px;
+			margin-right: -2px;
+			text-align: center;
+			text-align: -webkit-center;
+		}
+		.day{
+			float: left;
+			width: 45px;
+			height: 58px;
+			border-collapse: collapse;
+			border-bottom: solid 2px #ffdab9;
+			margin-bottom: -2px;
+			margin-right: -2px;
+			text-align: center;
+			text-align: -webkit-center;
+			.line{
+				width: 32px;
+				height: 16px;
+				display: flex;
+				align-items: center;
+				.icon{
+					width: 16px;
+					height: 16px;
+					margin-top: -18px;
+				}
+			}
+		}
+		.day:nth-last-child(-n+7){
+			border-bottom: none;
+		}
+	}
+}
+.calendar_container table.Android .day .line .icon{
+	margin-top: -5px;
+}
+.calendar_link{
+	margin: 5px;
+	text-align: right;
+}
+
+.calendar_today:link, .calendar_today:visited, .calendar_today:hover, .calendar_today:active {
+	color: #7d5633;
+}
+
+.calendar_today_unsei_btn{
+	margin-top: 30px;
+}

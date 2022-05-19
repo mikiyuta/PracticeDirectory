@@ -1,0 +1,271 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+
+/* ---------------
+ *基本性格
+ *-------------- */
+ .kihon_menu_head{
+ 	 width:320px;
+ 	 height:33px;
+ 	 background-image: image-url("menu_head_3.jpg");
+ 	 background-repeat: no-repeat;
+ 	 background-size: 100% 100%;
+  }
+
+ .kihon_bg{
+ 	width: 320px;
+ 	background-image: image-url("menu_list_bg_3.jpg");
+ 	background-repeat: repeat-y;
+ 	background-size: 100% 100%;
+ }
+
+ .kihon_bg2{
+ 	width: 320px;
+ 	background-image: image-url("kihon_bg2.jpg");
+ 	background-repeat: repeat-y;
+ 	background-size: 100% 100%;
+ }
+
+
+  .kihon_bt {
+ 	width:320px;
+ 	height:33px;
+ 	background-image: image-url("menu_btm_4.jpg");
+ 	background-repeat: no-repeat;
+ 	background-size: 100% 100%;
+  }
+
+  .text_img1 {
+ 	width:320px;
+ 	height:101px;
+ 	background:url("text_img1.png") no-repeat;
+ 	background-size: 100% 100%;
+  }
+
+/* ---------------
+ *プロフィール枠
+ *-------------- */
+ .result_head{
+ 	position:relative;
+ 	width:320px;
+ 	height:66px;
+ 	background-image: image-url("49_head.jpg");
+ 	background-repeat: no-repeat;
+ 	background-size:100% 100%;
+ }
+
+ .result_head_2{
+ 	position:relative;
+ 	width:320px;
+ 	height:66px;
+ 	background-image: image-url("50_head.jpg");
+ 	background-repeat: no-repeat;
+ 	background-size:100% 100%;
+ }
+
+ .result_bt{
+ 	width: 320px;
+ 	height: 38px;
+ 	margin: -30px auto 0;
+ 	background-image: image-url("menu_btm_4.jpg");
+ 	background-repeat: no-repeat;
+ 	background-size: 100% 100%;
+ }
+
+ .result_bt_2{
+ 	width: 320px;
+ 	height: 36px;
+ 	margin: -30px auto 0;
+ 	background-image: image-url("menu_btm_5.jpg");
+ 	background-repeat: no-repeat;
+ 	background-size: 100% 100%;
+ }
+
+ .result_bg{
+ 	width: 320px;
+ 	background-image: image-url("result_bg.jpg");
+ 	background-repeat: repeat-y;
+ 	background-size: 100% 100%;
+
+ }
+
+ /* ---------------
+ *結果
+ *-------------- */
+.res_my_top {
+	width:320px;
+	height:60px;
+	background-image: image-url("res_my_top.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.res_you_top{
+	width:320px;
+	height:60px;
+	background-image: image-url("res_you_top.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.res_top{
+	width: 320px;
+	height: 20px;
+	margin: 0 auto;
+	background-image: image-url("common_top.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.res_bg {
+	width:320px;
+	background-color:#f2eee3;
+}
+
+.res_bt {
+	width:320px;
+	height:35px;
+	background-image: image-url("kihon_bt.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+
+ul.info {
+	margin:0 20px 20px;
+	list-style:none;
+}
+
+ul.info li{
+	color:#fff;
+}
+
+.free_holo_title{
+	width:320px;
+	height:75px;
+	background-image: image-url("free_holo_title.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+
+.free_holo_bg{
+	width:320px;
+	height:330px;
+	background-image: image-url("free_holo_bg.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.holo_matome_top1{
+	width:320px;
+	height:151px;
+	background-image: image-url("holo_matome_top1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.holo_matome_top2{
+	width:320px;
+	height:151px;
+	background-image: image-url("holo_matome_top2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.holo_matome_bg{
+	width:320px;
+	height:420px;
+	background-image: image-url("holo_matome_bg.jpg");
+	background-position: center bottom;
+	background-color: #2d043b;
+	background-size: 100% 100%;
+	position:relative;
+}
+
+.holo_msg{
+	width: 280px;
+    position: absolute;
+    top: -30px;
+	left: 10px;
+	padding: 10px;
+    background: #000;
+    background: rgba(0,0,0,0.5);
+    border: #639 1px solid;
+    -webkit-border-top-left-radius: 12px;
+    -webkit-border-top-right-radius: 12px;
+    -webkit-border-bottom-right-radius: 12px;
+    -webkit-border-bottom-left-radius: 12px;
+    -moz-border-radius-topleft: 12px;
+    -moz-border-radius-topright: 12px;
+    -moz-border-radius-bottomright: 12px;
+    -moz-border-radius-bottomleft: 12px;
+}
+
+.btm_tarot_top{
+	width:320px;
+	height:151px;
+	background-image: image-url("btm_tarot_top.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.btm_tarot_bg{
+	width:320px;
+	height:258px;
+	background-image: image-url("btm_tarot_bg.jpg");
+	background-color:#2d043b;
+	background-position: center bottom;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position:relative;
+}
+
+.btm_tarot_box{
+	position:absolute;
+	zoom: 50%;
+	top: 19px;
+	left:184px;
+}
+
+.btm_tarot_msg{
+	width: 280px;
+	margin: 10px auto 30px;
+	padding: 10px;
+	background: #000;
+    background: rgba(0,0,0,0.5);
+    border: #639 1px solid;
+    -webkit-border-top-left-radius: 12px;
+    -webkit-border-top-right-radius: 12px;
+    -webkit-border-bottom-right-radius: 12px;
+    -webkit-border-bottom-left-radius: 12px;
+    -moz-border-radius-topleft: 12px;
+    -moz-border-radius-topright: 12px;
+    -moz-border-radius-bottomright: 12px;
+    -moz-border-radius-bottomleft: 12px;
+}
+
+.motif_bg {
+	width:320px;
+	height:181px;
+	background-image: image-url("motif_bg.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.motif_bg_2 {
+	width:320px;
+	height:173px;
+	background-image: image-url("motif_bg_2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.kantei_box{
+	background-color:#0d0c21;
+}
+
+.kantei_box_2{
+	background-color:#191922;
+}

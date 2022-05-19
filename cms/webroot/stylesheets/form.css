@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--------------------
+ * form css
+ *--------------------*/
+input[type="text"], input[type="email"], input[type="password"] {
+  border: 0;
+  padding: 5px;
+  font-size: 1.0em;
+  /* font-size: 16px;
+  transform: scale(0.8); */
+  font-family: Arial, sans-serif;
+  border: solid 1px #ccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 1px rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: 0px 1px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 1px rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+input[type="text"]:focus {
+}
+
+input[type="image"]{
+  cursor: pointer;
+}
+/*
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background: none transparent;
+  vertical-align: middle;
+  font-size: inherit;
+  color: inherit;
+  box-sizing: content-box;
+}
+*/

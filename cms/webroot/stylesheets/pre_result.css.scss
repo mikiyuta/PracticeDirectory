@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*--------------------
+ * pre_result
+ *--------------------*/
+
+
+ .list_top{
+	width: 320px;
+	height: 20px;
+	margin: 0 auto;
+	background:url("common_top.png") no-repeat;
+	background-size: 100% 100%;
+ }
+
+ .list_bt{
+	width: 320px;
+	height: 20px;
+	margin: 0 auto;
+	background:url("common_btm.png") no-repeat;
+	background-size: 100% 100%;
+}
+
+.pre_res_box{
+	padding: 0 0 10px;
+	margin:0 auto;
+}
+
+.pre_res_box2{
+	padding: 10px 10px 5px;
+}
+
+.input_title{
+	padding: 2px 0;
+	text-align: center;
+	background-color: #7F3081;
+}
+
+.input_title_2{
+	padding:2px 0;
+	text-align:center;
+}
+
+.birth_box1 {
+	width:100%;
+	padding: 6px 0 3px;
+	float: left;
+}
+
+.gender_box{
+	width:100%;
+	padding:5px 0;
+	float:left;
+}
+
+/*--------------------
+ * pre_result
+ *--------------------*/
+
+
+ .pre_res_top1p{
+ 	width:320px;
+ 	height:60px;
+ 	background-image: image-url("46.jpg");
+ 	background-repeat: no-repeat;
+ 	background-size: 100% 100%;
+ }
+
+ .pre_res_top2p{
+ 	width:320px;
+ 	height:60px;
+ 	background-image: image-url("47.jpg");
+ 	background-repeat: no-repeat;
+ 	background-size: 100% 100%;
+ }
+
+ .pre_res_top2p_2{
+ 	width:320px;
+ 	height:70px;
+ 	background-image: image-url("48.jpg");
+ 	background-repeat: no-repeat;
+ 	background-size: 100% 100%;
+ }
+
+  .anohito_box{
+ 	background-color:#fff;
+  }
+   .anata_box{
+ 	background-color:#fff;
+  }
+
+  .aite_box{
+ 	 background-color:#fff
+  }
