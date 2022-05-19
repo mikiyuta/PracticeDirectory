@@ -1,7 +1,5 @@
 h1{
     font-size:230px;
-}
-
-#parallel{
-    display:flex;
+    font-weight:bold;
+    color:rgb(51, 51, 51);
 }
