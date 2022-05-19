@@ -1,5 +1,5 @@
 function button(){
-    alert('送信します。');
+    confirm('送信します。');
 }
 
 
